@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: radial-gradient(circle at 24.1% 70.8%, rgb(19, 18, 18) 0%, rgb(0, 0, 0) 65.4%);
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+  }
+
+.cabeçalho-imagem {
+    height: 100px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px;
+
+}
+
+.cabeçalho-menuitem {
+    font-family: 'Sarala', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+
+}
+
+.conteudo-principal {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.conteudo-principal-escrito {
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
+
+
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #a12c2c
+}
+
+.conteudo-principal-escrito-subitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #a72b2b;
+  }
+
+.conteudo-principal-escrito-botao {
+    background-color: #300707;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ec3939;
+  cursor:pointer;
+  transition-duration: 0.8s
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #791010
+  }
+
+  .conteudo-principal-imagem {
+    height: 350px;
+    margin-top: 20px;
+  }
+
+  .conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+  }
+
+  .conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ff2f00;
+    margin-bottom: 16px;
+  }
+
+  .conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #e60a0a;
+  }
+  
+  .conteudo-secundario-strong {
+    color: #fc3b00;
+
+  }
+
+
+
+  .rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .conteudo-principal-formulario {
+    text-align: center;
+  }
+
+.texto-principal-formulario {
+  display: inline-block;
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ff2f00;
+  margin-bottom: 16px;
+  font-size: 35px;
+}
+
+.formulario1 {
+  border: 10px solid #e60a0a; 
+  padding: 20px; 
+  margin: 0 auto; 
+  width: 450px;
+  background-color: #a12c2c;
+  border-radius: 20px;
+}
+
+.formulario-botao {
+  background-color: #300707;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ec3939;
+  cursor:pointer;
+  transition-duration: 0.8s
+}
+
+.formulario-botao:hover {
+  background-color: #791010
+}
+
+.formulario-nome {
+  font-size: 25px;
+  text-decoration: underline;
+  color:  #300707;
+}
+
+.formulario-email {
+  font-size: 25px;
+  text-decoration: underline;
+  color:  #300707;
+}
+
+.formulario-telefone {
+  font-size: 25px;
+  text-decoration: underline;
+  color:  #300707;
+}
+
+.input-nome {
+  height: 35px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.input-email {
+  height: 35px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.input-telefone {
+  height: 35px;
+  width: 300px;
+  margin-top: 15px;
+}
